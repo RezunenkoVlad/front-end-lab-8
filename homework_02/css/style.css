@@ -18,7 +18,7 @@ body {
 	}
 #home {
 		height: 250px;
-		padding: 0;
+		padding: 100;
 		margin: 0;
 	}
 .tm-sidebar {
@@ -41,9 +41,13 @@ section:nth-child(2) div div:first-child h2::first-letter{
 		font-size: 2rem;
 	}
 section:nth-child(2) div div:nth-child(1) {
-		width: 89%;
-		max-width: 89%;
-		padding: 51px 0 0;
+		width: 100%;
+		max-width: 100%;
+		padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 60px;
+    padding-right: 60px; 
+
 	}
 section:nth-child(2) div div:nth-child(2) {
 		display: flex;
@@ -53,6 +57,7 @@ section:nth-child(2) div div:nth-child(2) {
 		display: none;}
 }
 /* Task 2 */
+@media screen {
 #about .box:first-child {
 	border-bottom: none !important;
 }
@@ -90,7 +95,7 @@ p::first-letter {
 }
 /* Task 5 */
 .gallery-container a>img{
-	border: 1px solid silver;
+	border: 2px solid silver;
 }
 /* Task 6 */
 #tmCarousel .tm-section-title {
@@ -188,4 +193,5 @@ section:nth-child(3) li:first-child a:after, section:nth-child(3) li:nth-child(3
 		margin-left: 0;
 		margin-top: 55px;
 	}
+}
 }
