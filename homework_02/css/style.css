@@ -132,7 +132,12 @@ section:nth-child(3) li:first-child a:after, section:nth-child(3) li:nth-child(3
 	position: absolute;
 	content: 'New';
 	color: red;
-	top: -11px;
+	top: -6px;
+    font-size: 12px;
+}
+    section:nth-child(3) li a:after {
+	content: '.';
+	color: black;   
 }
 /* Task10 */
 .blocks .box:nth-child(odd) {
