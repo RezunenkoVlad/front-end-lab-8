@@ -106,7 +106,7 @@ h2 + p {
 	font-style: italic;
 }
 /* Task 8 */
-section:nth-child(2) p {
+section:nth-child(2) p:not(.tm-banner-text) {
 	text-indent: 21px;
 	line-height: 31px;
 }
@@ -123,17 +123,16 @@ section:nth-child(3) a:visited {
 }
 section:nth-child(3) a:hover {
 	color: #6495ed;
-	transition: color .2s;
 }
 section:nth-child(3) a {
 	position: relative
 }
 section:nth-child(3) li:first-child a:after, section:nth-child(3) li:nth-child(3) a:after {
-	position: absolute;
 	content: 'New';
 	color: red;
-	top: -6px;
     font-size: 12px;
+    position: absolute;
+	top: -6px; 
 }
     section:nth-child(3) li a:after {
 	content: '.';
@@ -147,7 +146,6 @@ section:nth-child(3) li:first-child a:after, section:nth-child(3) li:nth-child(3
 	transition: .2s;
 }
 .blocks .box:hover {
-	transition: .2s;
 	background-color: whitesmoke;
 }
 .blocks p::first-letter {
@@ -183,8 +181,6 @@ section:nth-child(3) li:first-child a:after, section:nth-child(3) li:nth-child(3
 		padding: 0;
 	}
 	.tm-main-nav .tm-nav-item a:hover {
-		border: none;
-		transition: none;
 		background-color: #ccc;
 	}
 	.tm-main-nav li+li {
