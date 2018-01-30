@@ -1,0 +1,126 @@
+$contentBackground: null !default;
+$bg-color: null !default;
+$content-bg: null !default;
+$text-color: null !default;
+$link-hover: null !default;
+$brief-bg: null !default;
+$table-bg: null !default;
+$link-color: null !default;
+$main-title-color: null !default;
+$contact-title-bg: null !default;
+$label-color: null !default;
+$brief-width: null !default;
+$button-color: null !default;
+
+
+body {
+    background: $bg-color;
+    width: 960px;
+    padding: 15px 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    vertical-align: middle;
+    
+}
+#content {
+	background: $content-bg;
+    padding: 15px;
+}
+body h1 {
+    color: $main-title-color;
+    text-align: center;
+}
+body h2 {
+    color: $main-title-color;
+}
+img.img-left {
+    border: $img-border;
+    padding: 2px;
+    float: left;
+    margin: 0 23px 11px 0;
+}
+a {
+    color: $link-color;
+}
+img.img-right {
+    border: $img-border;
+    padding: 2px;  
+    float: right;
+}
+.brief {
+    background-color: $brief-bg;
+    float: left;
+    padding: 25px;
+    margin: 0 20px 20px 0;
+    width: $brief-width;
+}
+caption {
+	text-align: right;	
+}
+th { 
+    background-color: $input-border;
+    font-size: 18px;
+    font-style: thin;
+    text-align: left;
+    padding: 10px;
+   }
+td { 
+    padding: 10px;  
+    border-bottom: solid 2px $input-border;
+    background-color: $table-bg;
+    color: $text-color;
+	}
+table, tbody, tr {
+    border: none !important;
+}
+form{
+    display: grid;
+}
+.input-area{
+    display: grid !important;
+}
+.name-area {
+    display: flex;
+}
+.name-area div{
+    width: 50%;
+    display: grid;
+}
+
+textarea {
+    height: 130px;
+    border: 1px solid $input-border;
+    resize: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+           }
+input[type=button] {
+    background-color: $contentBackground;
+    border: 1px solid $button-color;
+    color: $button-color;
+    padding: 1px 32px;
+    width: 230px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p { 
+color: $text-color;
+}
+label {
+    color: $link-color;
+}
+input[type=text] {
+width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#content {
+  width: 960px;
+  margin: 0;
+  background: $contentBackground;
+}
