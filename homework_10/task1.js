@@ -14,7 +14,7 @@ function debounce(f, ms){
     }, ms);
   };
 }
-let iterator = 1;
+let iterator = 0;
 function increaseIteratorBy1() {
   iterator++;
   printIteratorValue();
