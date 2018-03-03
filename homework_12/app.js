@@ -56,9 +56,6 @@ function renderComponent(comp) {
     }
 }
 function renderDetailView(tank){
-    var detailView = document.createElement('div');
-    detailView.appendChild(createTankItemForMainView(tank));
-    renderComponent(detailView);
     var details = tank.details;
     return ` <div class="details">
                 <div class="mainInfo">
@@ -129,7 +126,6 @@ function tankInfomation() {
         window.history.go();
     });
   }
-  window.onhashchange = tankInfomation;
   function onChangeHash(){
     var isTankExists = false;
     tanks.forEach(function(element) {
@@ -142,4 +138,4 @@ function tankInfomation() {
         renderMainView();
     }
 }
-
+window.onhashchange = tankInfomation;
