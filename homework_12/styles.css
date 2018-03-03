@@ -1,0 +1,79 @@
+/* Your styles goes here */
+body {
+    background-color: rgb(28, 28, 30);
+}
+h1 {
+    padding: 5px;
+    color: rgb(135, 132, 114);
+}
+.tank_level {
+    color: rgb(135, 132, 114);
+    font-size: 23px;
+}
+.tank_model {
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    height: 24px;
+    width: 66%;
+    float: right;
+    margin: 0px; 
+    padding-top: 0px;
+    color: rgb(212, 207, 182);
+    font-family: serif;
+    text-align: left;
+}
+.tanks_item {
+    padding: 10px;
+    width: 11em;
+    float: left;
+    text-align: center; 
+}
+.tanks_item:hover {
+    background-color: rgb(44, 44, 44);
+}
+.tanks_picture {
+    width: 10em;
+}
+.tableInfo {  
+    float: right;
+    padding-top: 50px;
+    width: 60%;
+}
+table {
+    border: 1px solid rgb(212, 207, 182);	   
+    margin: 0 -1px 24px 0;		  
+    text-align: left;		   
+    border-collapse: collapse;		   
+    color: rgb(212, 207, 182);	
+    width: 100%;
+    font-family: serif;	
+  }		 
+  tr {		
+    border: 1px solid rgb(212, 207, 182);	   
+  }		 
+  th {		 
+    padding: 9px 24px;		   
+    border-right:1px solid rgb(212, 207, 182);		  
+    text-align: left;		  
+  }		 
+  .mainInfo {
+      float: left;
+      width: 35%; 
+  }
+  .detflag {
+      width: 550px;
+  }
+  .preview {
+      font-family: serif;	
+      font-size: 20px;
+      color: rgb(212, 207, 182);
+  }
+  .back {
+      font-family: serif;	
+      color: rgb(212, 207, 182);
+  }
+
+
+
+
